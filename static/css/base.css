@@ -7,7 +7,7 @@ body {
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif; /* Added a fallback font */
 }
 
 /* from Bulma */
@@ -36,6 +36,12 @@ body {
 .btn-black {
     background: black;
     color: white;
+}
+
+.btn-outline-black {
+    background: white;
+    color: black !important; /* Removed the extraneous semicolon */
+    border: 1px solid black;
 }
 
 .shop-now-button:hover,
@@ -107,6 +113,4 @@ a.category-badge > span.badge:hover {
     body {
         height: calc(100vh - 116px);
     }
-        
-
 }
