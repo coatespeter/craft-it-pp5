@@ -5,33 +5,33 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sortprice&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sortrating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sortcategory&direction=asc" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="beauty-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Beauty
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=beauty" class="dropdown-item">Face Treats</a>
-                <a href="{% url 'products' %}?category=beauty" class="dropdown-item">Body Care</a>
-                <a href="{% url 'products' %}?category=beauty" class="dropdown-item">Lotions & Potions</a>
-                <a href="{% url 'products' %}?category=beauty" class="dropdown-item">All Beauty</a>
+            <div class="dropdown-menu border-0" aria-labelledby="beauty-link">
+                <a href="{% url 'products' %}?category=Beauty" class="dropdown-item">Face Treats</a>
+                <a href="{% url 'products' %}?category=Beauty" class="dropdown-item">Body Care</a>
+                <a href="{% url 'products' %}?category=Beauty" class="dropdown-item">Lotions & Potions</a>
+                <a href="{% url 'products' %}?category=Beauty" class="dropdown-item">All Beauty</a>
             </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="craft-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Craft
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="" class="dropdown-item">Kits</a>
-                <a href="" class="dropdown-item">Classes</a>
-                <a href="" class="dropdown-item">All Craft</a>
+            <div class="dropdown-menu border-0" aria-labelledby="craft-link">
+                <a href="{% url 'products' %}?category=Craft" class="dropdown-item">Kits</a>
+                <a href="{% url 'products' %}?category=Craft" class="dropdown-item">Classes</a>
+                <a href="{% url 'products' %}?category=Craft" class="dropdown-item">All Craft</a>
             </div>
         </li>
 
@@ -40,10 +40,10 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=Specials" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=Specials" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=Specials" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=Specials" class="dropdown-item">All Specials</a>
             </div>
         </li>
     </ul>
