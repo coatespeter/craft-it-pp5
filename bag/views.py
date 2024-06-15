@@ -52,6 +52,7 @@ def remove_from_bag(request, item_id):
     """ Remove the item from the shopping bag """
     try:
         bag = request.session.get('bag', {})
+        item_id = str(item_id)
 
         print(f"Removing item_id: {item_id}")
         print(f"Bag before removal: {json.dumps(bag, indent=2)}")
