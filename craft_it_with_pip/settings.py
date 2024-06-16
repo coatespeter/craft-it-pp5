@@ -187,3 +187,5 @@ CSP_STYLE_SRC = (
     "'self'",
     "https://fonts.googleapis.com",
 )
+
+STRIPE_WH_SECRET = 'whsec_798xxkPofOtkS7eJODOPHm3aQzXq0Jmq'
