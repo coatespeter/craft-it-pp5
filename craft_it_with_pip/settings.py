@@ -165,3 +165,25 @@ STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+
+CSP_SCRIPT_SRC = (
+    "'self'",
+    "https://js.stripe.com",
+    "https://m.stripe.network",
+)
+
+CSP_CONNECT_SRC = (
+    "'self'",
+    "https://api.stripe.com",
+    "https://m.stripe.network",
+)
+
+CSP_IMG_SRC = (
+    "'self'",
+    "https://q.stripe.com",
+)
+
+CSP_STYLE_SRC = (
+    "'self'",
+    "https://fonts.googleapis.com",
+)
