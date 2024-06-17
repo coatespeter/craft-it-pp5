@@ -2,12 +2,16 @@ html {
     height: 100%;
 }
 
+#title {
+    font-weight: normal;
+}
+
 body {
     background: url('/media/background.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
-    font-family: 'Lato', sans-serif; /* Added a fallback font */
+    font-family: 'Cinzel', sans-serif; /* Added a fallback font */
 }
 
 /* from Bulma */
