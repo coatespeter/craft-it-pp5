@@ -1,1 +1,1 @@
-web: gunicorn craft_it_with_pip.wsgi:application
+web: gunicorn craft-it-with-pip.wsgi:application
