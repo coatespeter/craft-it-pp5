@@ -19,7 +19,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
     '0a55-2a0d-3344-2029-d210-4083-7285-34e6-c4a2.ngrok-free.app',
-    'https://craft-it-with-pip-52cf6a8ea2e2.herokuapp.com/',
+    'craft-it-with-pip-52cf6a8ea2e2.herokuapp.com'
 ]
  
 
