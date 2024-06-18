@@ -1,15 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="container mt-5 lower-content white-background">
-    <h1>Testimonials</h1>
-    <div class="row">
+<div class="container my-5 testimonial-container">
+    <h1 class="text-center">Testimonials</h1>
+    <div class="row justify-content-center mt-4">
         {% for testimonial in testimonials %}
-        <div class="col-md-4 mb-3">
+        <div class="col-md-8 mb-4">
             <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">{{ testimonial.name }}</h5>
                     <p class="card-text">{{ testimonial.message }}</p>
+                    <p class="text-muted">{{ testimonial.created_at|date:"F j, Y" }}</p>
                 </div>
             </div>
         </div>
