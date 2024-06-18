@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col">
+                <h1 class="display-4 text-center">Testimonials</h1>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                {% for testimonial in testimonials %}
+                    <div class="testimonial-item mb-4">
+                        <blockquote>
+                            <p>{{ testimonial.message }}</p>
+                            <footer>{{ testimonial.customer_name }}</footer>
+                        </blockquote>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+{% endblock %}

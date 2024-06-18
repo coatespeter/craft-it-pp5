@@ -1,10 +1,13 @@
 from django.shortcuts import render
+from .models import FAQ, Testimonial, Contact  # Ensure all models are imported
 
-def faq(request):
-    return render(request, 'faq.html')
+def faq_view(request):
+    faqs = FAQ.objects.all()
+    return render(request, 'interactions/faq.html', {'faqs': faqs})
 
-def testimonial(request):
-    return render(request, 'testimonial.html')
+def testimonial_view(request):
+    testimonials = Testimonial.objects.all()
+    return render(request, 'interactions/testimonial.html', {'testimonials': testimonials})
 
-def contact(request):
-    return render(request, 'contact.html')
+def contact_view(request):
+    return render(request, 'interactions/contact.html')
