@@ -220,6 +220,8 @@ a.category-badge > span.badge:hover {
     margin-top: 100px; /* Adjust this value as needed to push the testimonials down */
     padding-top: 85px; /* Optional: Add some padding for better spacing */
 }
+
+
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
