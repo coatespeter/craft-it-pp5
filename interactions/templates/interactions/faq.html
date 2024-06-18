@@ -1,27 +1,37 @@
 {% extends "base.html" %}
-{% load static %}
-
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col">
-                <h1 class="display-4 text-center">Frequently Asked Questions</h1>
-            </div>
-        </div>
-    </div>
-{% endblock %}
 
 {% block content %}
-    <div class="container my-5">
+<div class="container mt-5 lower-content white-background">
+    <h1>Frequently Asked Questions</h1>
+    <button id="show-faqs" class="btn btn-primary mb-3">Show FAQs</button>
+    <div id="faq-content" style="display: none;">
         <div class="row">
-            <div class="col-12">
-                {% for faq in faqs %}
-                    <div class="faq-item mb-4">
-                        <h4>{{ faq.question }}</h4>
-                        <p>{{ faq.answer }}</p>
+            {% for faq in faqs %}
+            <div class="col-md-12 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ faq.question }}</h5>
+                        <p class="card-text">{{ faq.answer }}</p>
                     </div>
-                {% endfor %}
+                </div>
             </div>
+            {% endfor %}
         </div>
     </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    document.getElementById('show-faqs').addEventListener('click', function() {
+        var faqContent = document.getElementById('faq-content');
+        if (faqContent.style.display === 'none') {
+            faqContent.style.display = 'block';
+            this.textContent = 'Hide FAQs';
+        } else {
+            faqContent.style.display = 'none';
+            this.textContent = 'Show FAQs';
+        }
+    });
+</script>
 {% endblock %}
