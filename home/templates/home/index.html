@@ -10,10 +10,29 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <!-- Left Side Content -->
-            <div class="col-7 col-md-6 my-auto">
+<style>
+    .main-container {
+        min-height: 80vh; /* Adjust as necessary to control the height */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .shop-now-button-container {
+        margin-top: 50px; /* Adjust this value to lower the button */
+    }
+    .buttons-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+    .buttons-container .btn {
+        margin: 10px;
+    }
+</style>
+    <div class="container main-container">
+        <div class="row justify-content-center align-items-center shop-now-button-container">
+            <!-- Central Content -->
+            <div class="col-12 text-center">
                 <h1 class="display-4 logo-font text-black">
                     The new products are here
                 </h1>
@@ -23,16 +42,14 @@
                     </h4>
                 </div>
             </div>
-
-            <!-- Right Side Content -->
-            <div class="col-7 col-md-6 my-auto text-right">
-                <h1 class="display-4 logo-font text-black">
-                    KEEP UP TO DATE WITH OUR CRAFT BLOG
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">BLOG</a>
-                    </h4>
+        </div>
+        <!-- New Buttons -->
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 text-center">
+                <div class="buttons-container my-5">
+                    <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3 mx-2">FAQ</a>
+                    <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3 mx-2">Testimonials</a>
+                    <a href="" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3 mx-2">Contact</a>
                 </div>
             </div>
         </div>
