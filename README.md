@@ -29,12 +29,10 @@
 
 - At the beginning of the project, I made up some rough wireframes to give me an idea of what I wanted the site to look like. I used draw.io to create these wireframes. I made a wireframe for the home page and the about page.
 
-![home]()
-![about]()
+![home](media/home.png)
 
 ## Post and Comment Relationship Diagram
 
-- Initial plan
 
 ![post and comment relationship model]()
 
@@ -44,67 +42,50 @@
 
 ## User Stories
 
-- 
-
 ## Features
 
-- 
 ![shop now](media/shopnow.png)
-![]()
 
-- Navbar - 
+- Navbar - The Nav bar provides users the ability to shop for their desired specific items by category. 
 
 ![navbar](media/nav.png)
-
-- 
 
 ![search](media/search.png)
 
 ![main page](media/mainpage.png)
 
 ![listings](media/listing.png)
-- Register Page
 
-![register]()
+![register](media/signup.png)
 
 - Login Page
 
-![login]()
+![login](media/signin.png)
 
 - Logout Page
 
 ![logout](media/signout.png)
 
-- 
-
-![listings]()
-
-- Authentication for comments.
-
-![auth](static/images/authentication.png)
-
-- Comments box
+![listings](media/listingpage.png)
 
 ![faq](media/faq.png)
 
-- 
-
 ![contact](media/contactform.png)
-
-- Contact admin form
 
 ![testimoniual](media/testimonial.png)
 
-- 
-
 ![interactions app](media/interactionstabs.png)
 
-- 
-![free shippping]media/freeshipping.png()
+![free shippping](media/freeshipping.png)
+
 ![free shipping 2](media/freeshipping2.png)
+
 ![product managment](media/productmanagement.png)
+
 ![order form](media/orderform.png)
+
 ![summary](media/ordersummary.png)
+
 ![profile/history](media/profileandhistory.png)
 
 ## Technologies Used
