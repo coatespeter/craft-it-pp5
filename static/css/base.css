@@ -256,6 +256,9 @@ a.category-badge > span.badge:hover {
     }
 }
 
+.footer{
+    background-color: teal;
+}
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
