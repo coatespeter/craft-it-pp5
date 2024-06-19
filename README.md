@@ -196,8 +196,6 @@
 - The content for this site was inspired by the Code Institute Django project "I think therefore I blog".
 - I used some Django educational material for some help with the setup of a Django-based site. 
   
-![Django Tutorial](https://www.youtube.com/watch?v=oU9kN13-Xbs&t=269s)
-
 ### Media
 
 - The images used in this site were obtained from 
