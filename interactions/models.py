@@ -4,7 +4,6 @@ class FAQ(models.Model):
     question = models.CharField(max_length=255)
     answer = models.TextField()
 
-
     def __str__(self):
         return self.question
 
@@ -12,7 +11,6 @@ class FAQ(models.Model):
 class Testimonial(models.Model):
     name = models.CharField(max_length=255)
     text = models.TextField()
-
 
     def __str__(self):
         return f"Testimonial from {self.name}"
