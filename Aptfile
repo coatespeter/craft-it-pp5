@@ -10,3 +10,5 @@ libfribidi-dev
 libxcb1-dev
 libpng-dev
 libtiff-dev
+libopenjp2-7-dev
+libjpeg62-turbo-dev
