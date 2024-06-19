@@ -29,10 +29,13 @@
 
 - At the beginning of the project, I made up some rough wireframes to give me an idea of what I wanted the site to look like. I used draw.io to create these wireframes. I made a wireframe for the home page and the about page.
 
+![wireframe1](media/wireframe10.jpg)
+
+![wireframe2](media/wireframe9.jpg)
+
 ![home](media/home.png)
 
 ## Post and Comment Relationship Diagram
-
 
 ![post and comment relationship model]()
 
