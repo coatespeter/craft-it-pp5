@@ -220,6 +220,29 @@ a.category-badge > span.badge:hover {
     margin-top: 100px; /* Adjust this value as needed to push the testimonials down */
     padding-top: 85px; /* Optional: Add some padding for better spacing */
 }
+.faq-container {
+    margin-top: 100px; /* Adjust this value to push the FAQs down */
+    padding-top: 20px; /* Optional: Add some padding for better spacing */
+    padding-bottom: 20px;
+}
+
+.card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin to separate the cards */
+}
+
+.card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
