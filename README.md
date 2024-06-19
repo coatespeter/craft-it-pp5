@@ -22,6 +22,7 @@
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
+    - [SEO - Search Engine Optimization research](#seo---search-engine-optimization-research)
     - [Libraries \& Frameworks](#libraries--frameworks)
     - [Acknowledgements](#acknowledgements)
 
@@ -158,6 +159,8 @@
  
 - In the future I would like to add a blog to the site. This would allow users to post their own content and interact with other users in the crafting community.
 
+- I would like to add a section specifically for registered users to be able to download all types of crafting template patterns.
+
 ## Setting up Django
 
 - Firstly, I installed all the relevant packages necessary for this site. These were, Django Gunicorn, Psycopg2, Django Heroku, Django Crispy Forms, Pillow, Cloudinary, DJ Database URL, and Whitenoise.
@@ -236,6 +239,20 @@
 - Facebook Marketing for the company Craft It With Pip.
 
   ![Facebook](media/facebookmarketing.jpg).
+
+### SEO - Search Engine Optimization research
+
+- I did some research on SEO and how to improve the site's ranking on Google. I used the following images to help me with this research. The terms from these search has been used throughout the products to help with the SEO of the site.
+
+![seo1](media/seoresearch1.png)
+
+![seo2](media/seoresearch2.png)
+
+![seo3](media/seoresearch3.png)
+
+![se04](media/seoresearch4.png)
+
+![seo5](media/seo5.png)
 
 ### Libraries & Frameworks
 
