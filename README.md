@@ -37,11 +37,13 @@
 
 ## Post and Comment Relationship Diagram
 
-![post and comment relationship model]()
+- Below is a relationship model for the custom models in the interactions app. The FAQ model, the T model, and the Testimonial model.
 
-![post model]()
+![FAQ model](media/faqmodel.png)
 
-![comment model]()
+![T model](media/testimonialmodel.png)
+
+![Contact model](media/contactmodel.png)
 
 ## User Stories
 
@@ -83,9 +85,9 @@
 
 ![search](media/search.png)
 
-![searcherror](media/searcherror.png)
-
 - Search Error - If the search does not have anything in the field, the user will be prompted to enter a search term.
+  
+![searcherror](media/searcherror.png)
 
 ![main page](media/mainpage.png)
 
@@ -153,7 +155,7 @@
 - Draw.io - The project uses Draw.io to create the wireframe.
 
 ## Future Features
-
+ 
 - In the future I would like to add a blog to the site. This would allow users to post their own content and interact with other users in the crafting community.
 
 ## Setting up Django
@@ -185,6 +187,26 @@
 ![lighthousereport](media/lighthousereport.png)
 
 ### Manual Testing
+
+| Manual Testing                             | Expected Outcome                                                                       | Pass/Fail |
+|--------------------------------------------|----------------------------------------------------------------------------------------|-----------|
+| Launching the Homescreen                   | Site homepage loads                                                                    | pass      |
+| Clicking on Shop now to get into the store | Products page loads                                                                    | pass      |
+| Clicking on the contact button             | Leads to contact form                                                                  | pass      |
+| Clicking the FAQ Button                    | Leads to FAQ page                                                                      | pass      |
+| Sort Products by type                      | Customers can filter by preferred type                                                 | pass      |
+| Register for an account                    | Users can register for their own account                                               | pass      |
+| Log in                                     | Log in                                                                                 | pass      |
+| Log out with warning                       | Users will be asked to confirm logout                                                  | pass      |
+| View products                              | Users should be able to click an item in the show and view the listing and description | pass      |
+| Add to basket                              | Users should be able to add a desired item to their basket                             | pass      |
+| Edit/Delete                                | Logged in users should be able to update basket amounts or delete items from basket    | pass      |
+| View basket                                | On clicking GO TO SECURE CHECKOUT, users can view the contents of their bag            | pass      |
+| Free shipping threshold                    | As items are added, the free shipping threshold dynamically changes                    | pass      |
+| Make an order                              | Users should be able to complete an order and reciece a confirmation number.           | pass      |
+| View profile                               | Users should be able to view their account details and order history                   | pass      |
+| Add products                               | Superusers should be able to add products from the "my account" tab                    | pass      |
+| Search                                     | Search functionality should work and blank searches should show an error               | pass      |
 
 ## Bugs
 
