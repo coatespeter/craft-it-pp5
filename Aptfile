@@ -8,3 +8,5 @@ tk8.6-dev
 libharfbuzz-dev
 libfribidi-dev
 libxcb1-dev
+libpng-dev
+libtiff-dev
