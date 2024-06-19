@@ -27,3 +27,4 @@ python-dateutil<3.0.0,>=2.1
 defusedxml==0.7.1
 certifi>=2017.4.17
 six>=1.5
+whitenoise==6.4.0
