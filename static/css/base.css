@@ -243,16 +243,23 @@ a.category-badge > span.badge:hover {
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
-}
+
 @media (max-width: 768px) {
     .buttons-container {
         flex-direction: column;
         align-items: center;
+    }
+    .buttons-container .btn {
+        width: 100%;
+        max-width: 260px; /* Match the min-width to ensure consistent button size */
+        margin: 5px 0; /* Add margin for spacing between buttons */
+    }
+}
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
     }
 }
 /* fixed top navbar only on medium and up */
