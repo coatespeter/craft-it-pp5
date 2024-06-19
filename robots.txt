@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://craft-it-with-pip-52cf6a8ea2e2.herokuapp.com/sitemap.xml
