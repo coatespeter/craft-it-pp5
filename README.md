@@ -146,11 +146,15 @@
 - Postgres - The project uses Postgres as the database.
 - Bootstrap - The project uses Bootstrap to style the site.
 - Google Fonts - The project uses Google Fonts to import the font used in the site.
-- ElephantSQL - The project uses ElephantSQL to host the database.
+- AWS - The project uses AWS to store the static files.
+
+![AWS bucket](media/s3.png)
+
 - Draw.io - The project uses Draw.io to create the wireframe.
 
-
 ## Future Features
+
+- In the future I would like to add a blog to the site. This would allow users to post their own content and interact with other users in the crafting community.
 
 ## Setting up Django
 
@@ -160,14 +164,14 @@
 - I created a Procfile and a requirements.txt file.
 - I created an admin account.
 - I then created the models for the site and migrated the database again.
-- I used Elephantsql to host the database and connected it to the site vis a newly created instance.
+- I used Google cloud to host the database and connected it to the site vis a newly created instance.
 - I linked the database to the site using the DJ Database URL package.
 - I then created the views and urls for the site.
 - I then created the templates for the site.
 - I then created the static files for the site.
 - I then created the forms for the site.
 - I logged into Heroku and created a new app. This app was linked via GitHub to my code base. I was able to deploy early on Heroku and keep an eye out for any bugs during the build process by redeploying the app and making sure everything was working as expected.
-- I added the necessary config vars to Heroku to connect the database and the cloudinary image hosting.
+- I added the necessary config vars to Heroku to connect the database, AWS and Stripe.
   
 ## Deploying to Heroku
 
