@@ -233,9 +233,19 @@
 - Font - The font I used called Natanael Gama One was obtained from 
   ![Google Fonts](media/googlefont.png).
 
+- Facebook Marketing for the company Craft It With Pip.
+
+  ![Facebook](media/facebookmarketing.jpg).
+
 ### Libraries & Frameworks
 
 - The site uses the [Django web framework](https://www.djangoproject.com/).
 - The site uses the [Bootstrap framework](https://getbootstrap.com/).
 
 ### Acknowledgements
+
+- I would like to thank my mentor Luke for his help and guidance throughout this project.
+
+- I would like to thank out cohort facilitator Marko for his help and guidance throughout this last year.
+
+- I would like to thank my Wife for all her support and help and encouragement.
