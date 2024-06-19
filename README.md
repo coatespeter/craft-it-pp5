@@ -19,7 +19,6 @@
   - [Testing](#testing)
     - [Manual Testing](#manual-testing)
   - [Bugs](#bugs)
-  - [](#)
   - [Credits](#credits)
     - [Content](#content)
     - [Media](#media)
@@ -50,23 +49,20 @@
 ## Features
 
 - 
-  
-![next]()
-![prev]()
+![shop now](media/shopnow.png)
+![]()
 
 - Navbar - 
 
-![navbar]()
-
-- login status - When site usere are or are not logged in to the site, there is a banner below the buttons which will tell them their status.
-
-![logged in]()
-![not logged in]()
+![navbar](media/nav.png)
 
 - 
 
-![]()
+![search](media/search.png)
 
+![main page](media/mainpage.png)
+
+![listings](media/listing.png)
 - Register Page
 
 ![register]()
@@ -77,7 +73,7 @@
 
 - Logout Page
 
-![logout]()
+![logout](media/signout.png)
 
 - 
 
@@ -89,26 +85,27 @@
 
 - Comments box
 
-![comments]()
+![faq](media/faq.png)
 
 - 
 
-![]()
+![contact](media/contactform.png)
 
 - Contact admin form
 
-![contact admin]()
+![testimoniual](media/testimonial.png)
 
 - 
 
-![default image]()
+![interactions app](media/interactionstabs.png)
 
-- Category images - Each category has its own image to represent it. By selecting the category when a post is being created, the listing image will appear as a default for the category.
-
-![category images]()
-![category images]()
-![category images]()
-![category images]()
+- 
+![free shippping]media/freeshipping.png()
+![free shipping 2](media/freeshipping2.png)
+![product managment](media/productmanagement.png)
+![order form](media/orderform.png)
+![summary](media/ordersummary.png)
+![profile/history](media/profileandhistory.png)
 
 ## Technologies Used
 
@@ -128,8 +125,6 @@
 - Cloudinary - The project uses Cloudinary to host the images.
 
 ## Future Features
-
-- 
 
 ## Setting up Django
 
@@ -159,64 +154,32 @@
 
 ### Manual Testing
 
-|        Component     |       Test       |     Expected Result.      |           Actual Result         |
-|----------------------|------------------|---------------------------|---------------------------------|
-| Home page display as expected | Click on Home | Home page displayed | Home page with job listings and images visible. **PASS**  |
-| About page link working | Selected About link | About page to display | About page displayed. **PASS** |
-| About page displays | Click on About | About page to display as expected | About page displayed paragraph about the site and the table to contact admin. **PASS** |
-| Form to register interest | Fill in all form fields | Alert renders on admin about page | Alert appeared on admin and about page. **PASS** |
-| Form fields | Skip completing form fields | Alert to please fill in field.  | Alert appeared to fill in field. **PASS** |
-| Email form field | Fill in email in incorrect format | Alert to include @ in email | Alert appeared to include @ for email. **PASS** |
-| Work list display | Click on home | List of blog posts appears as 6 per page | List of work post displayed as 6 per page. **PASS** |
-| Next and Prev Buttons | Work as expected | Next brings to next page, prev brings to previous | Next brought to next page, previous brought to previous lisings. **PASS** |
-| Full Listing display | On click of listing title in blog list full listing display | Full listing displays | Full listing displayed. **PASS** |
-| Comment Counter | Scroll to comment section | Shows users a small graphic with number of comments | Displays correctly. **PASS** |
-| Log in Prompt | To display when not log in | Message display in like and comment to prompt a log in | Messaged displayed to visitor to log in to interact with post. **PASS** |
-| Like Log in Prompt Link Working | Link to sign in page working | User brought to sign in page when clicked | User is brought to log in page when link. **PASS** |
-| Comment | Site User can leave a comment | User can leave a comment and receive confirmation | Member placed comment and received notification that comment is awaiting approval. **PASS** |
-| Not logged in Comment | If not logged in cannot comment | Message displaying to prompt visitor to log in if they want to leave a comment | Message displayed to visitor to sign in to leave comment. **PASS** |
-| Comment Log in Link | Link working | On click of link user brought to sign in page | User clicked log in link and brought to log in page. **PASS** |
-| Edit Comment | Can only edit own comment | Only users own comment can be edited | User could only edit their comment and receive an alert to state they did so. **PASS** |
-| Delete Comment | Users can delete own comments | Users can delete comment once confirmation received | User could delete a comment they left once confirming they were happy to do so. **PASS** |
-| Sign Up Form | Working as expected | New user created as a result | All fields of form completed and new user created. **PASS** |
-| Log In Link on Sign Up page | Link working | On click log in link brings to log in page | User brought to log in page once clicked. **PASS** |
-| Sign In Field Validation | Field Validation | Alert user if field missed | Field missed on completing form and alert received to fill in missing field. **PASS** |
-| Password Validation | Password | Alert raised if criteria not met | Alert raised as a result of not matching password or too similar to user name. **PASS** |
-| Log In Form | Allows user to sign in | User can sign in and gain full functionality of blog | User signed in successfully when correct credentials supplied. **PASS** |
-| Sign Up Link on Log In Page | Link working | On click brought to sign up page | User brought to log in page once clicked. **PASS** |
-| Sign Out | User can sign out | Sign out successfully and asked to confirm | User could sign out once they confirmed that was their intention. **PASS**|
-
 ## Bugs
 
-![bugs]()
+- I encountered a but on deployment in which my static files were not being served. I had to add the Whitenoise package to my settings.py file to fix this issue.
 
-- I 
+![bugs](media/bug.png)
 
-![code fix]()
+- I encountered a bug in which the testimonial and faq were not working correctly due to migrations not being sent to Heroku. I fixed that particular issue by running the migrations on the Heroku CLI.
 
-![message tag]()
-
-![message fix]()
-- 
-- 
-- 
-![overspill]()
-![overspill-fix]()
-
-![wave]()
+![bugs2](media/bug2.png)
 
 ## Credits
 
 ### Content
 
 - The content for this site was inspired by the Code Institute Django project "I think therefore I blog".
-- I used some Django educational material for some help with the setup of a Django-based site. [Django Tutorial](https://www.youtube.com/watch?v=oU9kN13-Xbs&t=269s)
+- I used some Django educational material for some help with the setup of a Django-based site. 
+  
+![Django Tutorial](https://www.youtube.com/watch?v=oU9kN13-Xbs&t=269s)
 
 ### Media
 
-- The images used in this site were obtained from [Unsplash]().
-- Font - The font I used called Madina One was obtained from [Google Fonts]().
-- Data storage - The data for this site is managed using [ElephantSQL]().
+- The images used in this site were obtained from 
+  
+  ![Unsplash](media/background.jpg).
+- Font - The font I used called Natanael Gama One was obtained from 
+  ![Google Fonts](media/googlefont.png).
 
 ### Libraries & Frameworks
 
@@ -224,5 +187,3 @@
 - The site uses the [Bootstrap framework](https://getbootstrap.com/).
 
 ### Acknowledgements
-
-- 
