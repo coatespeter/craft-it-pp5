@@ -42,6 +42,32 @@
 
 ## User Stories
 
+- As a user, I want to register an account so that I can make purchases and view my order history.
+  
+- As a registered user, I want to log in to my account so that I can access my profile and make purchases.
+
+- As a logged-in user, I want to log out of my account so that my session is secure.
+
+- As a logged-in user, I want to update my profile information so that my details are current.
+
+- As a user, I want to navigate through the site using a navigation bar so that I can find products easily.
+
+- As a user, I want to browse and view products so that I can choose items to purchase.
+
+- As a user, I want to add products to my cart so that I can purchase them later.
+
+- As a user, I want to purchase products in my cart so that I can receive the items.
+
+- As a logged-in user, I want to see my order history so that I can track my purchases.
+
+- As a site owner, I want to log in as a super user so that I can manage the site.
+
+- As a site owner, I want to add new products from the home page so that I can keep the product catalog updated.
+
+- As a site owner, I want to view messages sent by users so that I can respond to inquiries and feedback.
+
+- As a site owner, I want to view all orders made on the site so that I can manage order fulfillment.
+
 ## Features
 
 ![shop now](media/shopnow.png)
@@ -50,7 +76,13 @@
 
 ![navbar](media/nav.png)
 
+- Search - The search bar allows users to search for specific items they are looking for.
+
 ![search](media/search.png)
+
+![searcherror](media/searcherror.png)
+
+- Search Error - If the search does not have anything in the field, the user will be prompted to enter a search term.
 
 ![main page](media/mainpage.png)
 
@@ -76,17 +108,27 @@
 
 ![interactions app](media/interactionstabs.png)
 
+- In the interactions app, I added the 3 x custom models as per the criteria of this project. As they are themed to communication, they have all been added in their own app called interactions. 
+
 ![free shippping](media/freeshipping.png)
 
+- Free Shipping - If the user spends over $50, they will receive free shipping. If they do not, a shipping fee of 10% will be added to the order.
+
 ![free shipping 2](media/freeshipping2.png)
+
+- Users will be prompted as to how much more value they need to add to their cart to receive free shipping.
 
 ![product managment](media/productmanagement.png)
 
 ![order form](media/orderform.png)
 
+- Summary - The summary page will show the user what they have ordered and the total cost of the order.
+
 ![summary](media/ordersummary.png)
 
 ![profile/history](media/profileandhistory.png)
+
+- Profile - The profile page will show the user their order history.
 
 ## Technologies Used
 
@@ -103,7 +145,7 @@
 - Google Fonts - The project uses Google Fonts to import the font used in the site.
 - ElephantSQL - The project uses ElephantSQL to host the database.
 - Draw.io - The project uses Draw.io to create the wireframe.
-- Cloudinary - The project uses Cloudinary to host the images.
+
 
 ## Future Features
 
@@ -132,6 +174,8 @@
 - In the deploy section, I was able to manually deploy the app and keep an eye out for any bugs during the build process by redeploying the app and making sure everything was working as expected.
 
 ## Testing
+
+![lighthousereport](media/lighthousereport.png)
 
 ### Manual Testing
 
