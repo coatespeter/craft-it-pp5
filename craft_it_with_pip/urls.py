@@ -15,4 +15,4 @@ urlpatterns = [
     path('interactions/', include('interactions.urls')),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-handler404 = 'boutique_ado.views.handler404'
+handler404 = 'craft_it_with_pip.views.handler404'
