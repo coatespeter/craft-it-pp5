@@ -1,6 +1,7 @@
 from django.db import models
 
 class FAQ(models.Model):
+    """model representing a frequently asked question and its answer"""
     question = models.CharField(max_length=255)
     answer = models.TextField()
 
@@ -9,6 +10,7 @@ class FAQ(models.Model):
 
 
 class Testimonial(models.Model):
+    """ Model representing a testimonial from a customer or user."""
     name = models.CharField(max_length=255)
     text = models.TextField()
 
@@ -17,6 +19,7 @@ class Testimonial(models.Model):
 
 
 class Contact(models.Model):
+    """Model representing a contact message sent by a user."""
     name = models.CharField(max_length=255)
     email = models.EmailField()
     message = models.TextField()

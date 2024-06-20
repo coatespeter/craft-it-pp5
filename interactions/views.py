@@ -11,10 +11,12 @@ def faq_view(request):
     return render(request, 'interactions/faq.html', {'faqs': faqs})
 
 def testimonial_view(request):
+    """"a view to display all testimonials"""
     testimonials = Testimonial.objects.all()
     return render(request, 'interactions/testimonial.html', {'testimonials': testimonials})
 
 def contact_view(request):
+    """a view to handle the contact form and send an email to the admin"""
     if request.method == 'POST':
         form = ContactForm(request.POST)
         if form.is_valid():
