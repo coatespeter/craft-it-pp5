@@ -1,5 +1,6 @@
 # Craft It With Pip
 
+![Responsivity](media/amiresponsive.png)
 
 - Link to deployed site - [https://craft-it-with-pip-52cf6a8ea2e2.herokuapp.com/](https://craft-it-with-pip-52cf6a8ea2e2.herokuapp.com/)
 - Link to GitHub repository - [https://github.com/coatespeter/craft-it-pp5](https://github.com/coatespeter/craft-it-pp5)
