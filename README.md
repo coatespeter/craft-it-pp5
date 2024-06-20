@@ -227,6 +227,10 @@
 
 ![bugs2](media/bug2.png)
 
+- I encountered a bug in the styling of the footer with the mailchimp and privacy policy links. This styling error is still in place and would be the first thing to be fixed in the next iteration of the site.
+
+![bugs3](media/mailchimpandprivcy.png)
+
 ## Credits
 
 ### Content
