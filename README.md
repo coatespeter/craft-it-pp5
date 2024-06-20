@@ -241,10 +241,12 @@
   
 ### Media
 
-- The images used in this site were obtained from 
+- The images used in this site were obtained from unsplash.com.
   
   ![Unsplash](media/background.jpg).
-- Font - The font I used called Natanael Gama One was obtained from 
+
+- Font - The font I used called Natanael Gama One was obtained from
+
   ![Google Fonts](media/googlefont.png).
 
 - Facebook Marketing for the company Craft It With Pip.
