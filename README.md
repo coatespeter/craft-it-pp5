@@ -80,6 +80,8 @@
 
 ![kanban](media/KANBAN.png)
 
+This is a link to the [Kanban board](https://github.com/users/coatespeter/projects/8) I used to plan the project.
+
 ## Features
 
 ![shop now](media/shopnow.png)
@@ -218,6 +220,7 @@
 | Add products                               | Superusers should be able to add products from the "my account" tab                    | pass      |
 | Search                                     | Search functionality should work and blank searches should show an error               | pass      |
 
+![Python linter](media/pythonlinter.png)
 
 ## Bugs
 
