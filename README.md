@@ -266,7 +266,7 @@
 
 ### Subscription
 
-- The site has a email subscription form that uses the [Mailchimp API](https://mailchimp.com/).
+- The site has a email subscription form that uses the [Mailchimp API](https://mailchimp.com/). I used the embedded code provided by Mailchimp to add this feature to the site.
 
 ![mailchimp](media/mailchimp.png)
 
