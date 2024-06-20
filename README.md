@@ -218,6 +218,7 @@
 | Add products                               | Superusers should be able to add products from the "my account" tab                    | pass      |
 | Search                                     | Search functionality should work and blank searches should show an error               | pass      |
 
+
 ## Bugs
 
 - I encountered a but on deployment in which my static files were not being served. I had to add the Whitenoise package to my settings.py file to fix this issue.

@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class FAQ(models.Model):
     """model representing a frequently asked question and its answer"""
     question = models.CharField(max_length=255)
