@@ -23,7 +23,10 @@
     - [Content](#content)
     - [Media](#media)
     - [SEO - Search Engine Optimization research](#seo---search-engine-optimization-research)
+    - [Subscription](#subscription)
+    - [Privacy Policy](#privacy-policy)
     - [Libraries \& Frameworks](#libraries--frameworks)
+    - [Credits](#credits-1)
     - [Acknowledgements](#acknowledgements)
 
 ## Wireframes
@@ -38,7 +41,7 @@
 
 ## Post and Comment Relationship Diagram
 
-- Below is a relationship model for the custom models in the interactions app. The FAQ model, the T model, and the Testimonial model.
+- Below is a relationship model for the custom models in the interactions app. The FAQ model, the Contact model, and the Testimonial model.
 
 ![FAQ model](media/faqmodel.png)
 
@@ -74,11 +77,13 @@
 
 - As a site owner, I want to view all orders made on the site so that I can manage order fulfillment.
 
+![kanban](media/KANBAN.png)
+
 ## Features
 
 ![shop now](media/shopnow.png)
 
-- Navbar - The Nav bar provides users the ability to shop for their desired specific items by category. 
+- Navbar - The Nav bar provides users the ability to shop for their desired specific items by category.
 
 ![navbar](media/nav.png)
 
@@ -150,6 +155,7 @@
 - Bootstrap - The project uses Bootstrap to style the site.
 - Google Fonts - The project uses Google Fonts to import the font used in the site.
 - AWS - The project uses AWS to store the static files.
+- Stripe - The project uses Stripe to handle payments.
 
 ![AWS bucket](media/s3.png)
 
@@ -254,10 +260,31 @@
 
 ![seo5](media/seo5.png)
 
+### Subscription
+
+- The site has a email subscription form that uses the [Mailchimp API](https://mailchimp.com/).
+
+![mailchimp](media/mailchimp.png)
+
+### Privacy Policy
+
+- The site has a privacy policy generated using an online privacy policy generator.
+
+![privacypolicy](media/privacypolicy.png)
+  
 ### Libraries & Frameworks
 
 - The site uses the [Django web framework](https://www.djangoproject.com/).
 - The site uses the [Bootstrap framework](https://getbootstrap.com/).
+
+### Credits
+
+- The site uses the [Stripe API](https://stripe.com/).
+- The site uses the [AWS S3 bucket](https://aws.amazon.com/s3/).
+- The site uses the [Google Cloud Platform](https://cloud.google.com/).
+- The site uses the [Heroku platform](https://www.heroku.com/).
+- The site uses the [GitHub platform](https://github.com)
+- This layout of the project was insprired by the Code Institute Django project "Boutique Ado".
 
 ### Acknowledgements
 
