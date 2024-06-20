@@ -191,7 +191,10 @@ This is a link to the [Kanban board](https://github.com/users/coatespeter/projec
 
 - Firstly, I created a new app on Heroku.
 - I then connected the app to my GitHub repository.
-- I then added the necessary config vars to Heroku to connect the database and the cloudinary image hosting.
+- I then added the necessary config vars to Heroku to connect the database and the Google image hosting.
+- I added the config vars for AWS to Heroku.
+- I added the config vars for the Stripe API.
+- I then added the necessary buildpacks to Heroku.
 - In the deploy section, I was able to manually deploy the app and keep an eye out for any bugs during the build process by redeploying the app and making sure everything was working as expected.
 
 ## Testing
